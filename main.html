@@ -6,10 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+	<style>
+        /* Apply styles to the table */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style table header */
+        th {
+            background-color: #3498db;
+            color: #fff;
+            border: 1px solid #2980b9;
+            padding: 10px;
+        }
+
+        /* Style table rows */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Style table data cells */
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        /* Style the "Win" column cells differently */
+        td:nth-child(6) {
+            background-color: #2ecc71;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
 </head>
 <body>
     <!-- add table here -->
+	<h1>Game Statistics</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>KILLS</th>
+                <th>SAVED</th>
+                <th>DEATHS</th>
+                <th>REVIVES</th>
+                <th>Win</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hackerman</td>
+                <td>10</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Cool Doggo</td>
+                <td>13</td>
+                <td>4</td>
+                <td>8</td>
+                <td>7</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Andrews</td>
+                <td>19</td>
+                <td>2</td>
+                <td>10</td>
+                <td>11</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Strawberry</td>
+                <td>2</td>
+                <td>9</td>
+                <td>3</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
 
         
 </body>
+</table>
 </html>
